@@ -18,14 +18,14 @@ body {
   position: relative;
   text-align: center;
   visibility: hidden;
-  width: 100vw;
+  width: 100vh;
 }
 
 .container > div {
   left: 0;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 100vh;
 }
 
 .one {
