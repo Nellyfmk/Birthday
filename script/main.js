@@ -35,14 +35,14 @@ const animationTimeline = () => {
 
     const ideaTextTrans = {
         opacity: 0,
-        y: -20,
+        y: -10,
         rotationX: 5,
         skewX: "15deg"
     }
 
     const ideaTextTransLeave = {
         opacity: 0,
-        y: 20,
+        y: 10,
         rotationY: 5,
         skewX: "-15deg"
     }
@@ -67,7 +67,7 @@ const animationTimeline = () => {
             opacity: 0,
             y: 10
         },
-    "+=3.5")
+    "+=1")
     .to(".two",
         0.7,
         {
@@ -104,7 +104,7 @@ const animationTimeline = () => {
     .to(".fake-btn", 0.1, {
         backgroundColor: "rgb(127, 206, 248)",
     },
-    "+=4")
+    "+=3")
     .to(
         ".four",
         0.5, {
